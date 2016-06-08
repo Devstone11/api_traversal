@@ -1,12 +1,37 @@
 .movie_poster{
   width: 150px;
   height: 221px;
-}
-
-#container{
-
+  margin: 0 auto 10px;
 }
 
 #center_column{
-  
+  text-align: center;
+  color: #1A460A;
+  font-family: sans-serif;
+}
+
+form {
+  height: 35px;
+}
+
+input {
+  margin: 0 50%;
+  position: absolute;
+  left: -70px;
+}
+
+button {
+  margin: 0 50%;
+  position: absolute;
+  left: 70px;
+}
+
+@media (max-width: 600px) {
+  .movie_poster {
+    width: 108px;
+    height: 150px;
+  }
+  #center_column {
+    font-size: 12px;
+  }
 }
